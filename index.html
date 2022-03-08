@@ -1,0 +1,71 @@
+<!--All images and audio are not my property. All credits to its official owner-->
+<!--Sources of image: Flaticon-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Zoom</title>
+    <link rel="shortcut icon" type="image/png" href="loupe.png">
+
+    <style type="text/css">
+        body{
+            margin: 0;
+            overflow: hidden;            
+        }
+
+        .main-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            inset: 0;
+            margin: auto;
+        }
+
+        .info-holder{
+            text-align: center;
+            padding-bottom: 15px;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        h1{
+            color: white;
+            margin-bottom: 0%;
+            padding-bottom: 5px;
+        }
+
+        p{
+            color: white;
+            font: bold;
+            padding: 20px;
+            letter-spacing: 0.2rem;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;            
+            padding: 10px;
+            font: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="info-holder">
+            <h1>Background Zoom</h1>
+            <p>An interactive background developed using HTML5 Canvas</p>
+            <a href="#">&#x226A; C o d e &#x226B;</a>
+        </div>
+    </div>
+
+    <canvas></canvas>
+    <script src = "script.js"></script>
+</body>
+</html>
